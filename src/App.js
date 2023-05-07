@@ -4,6 +4,7 @@ import Paypal from './Components/paypal'
 import Busniess from './Components/business';
 import Statistic from './Components/Statistic';
 import Avis from './Components/Avis';
+import Footer from './Components/footer';
 function App() {
   return (
   <div className=" bg-[#00040F] w-full h-full" >
@@ -13,6 +14,7 @@ function App() {
     <Paypal />
     <Statistic></Statistic>
     <Avis />
+    <Footer/>
   </div> 
 
   ) ;
